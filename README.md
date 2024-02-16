@@ -1,8 +1,8 @@
-This is a snake game that use to come on the old phones especially if you remember on the Nokia phones 
+This is a snake game that use to come on the old phones especially if you remember on the Nokia phones. something like this : - 
 
 
 
-something like this : - 
+
 ![image](https://github.com/HKPARIKH/SnakeGame/assets/90847022/9b95337f-649d-45cf-9294-8d3c84bb7083)
 
 
