@@ -12,11 +12,10 @@ You can find two main files in Src/snakegame that have the coding part of the ga
 and the icons folder in this route SnakeGame/src/snakegame/icons that have the icons of head, body, and apple.
 
 
-**Detailed Explaination **
+**Detailed Explaination**
 
 
-**
-Board() - Constructor:**
+**Board() - Constructor:**
 Purpose: Initializes the Board class.
 Explanation:
 Adds a KeyListener (instance of TADAPTER) to handle keyboard input.
@@ -54,40 +53,32 @@ Explanation:
 Calls the draw method to render the game elements using the Graphics object.
 
 
-**draw(Graphics g):
-**
+**draw(Graphics g):**
 Purpose: Draws the game elements on the panel.
 Explanation:
 If the game is still in progress (inGame is true), it draws the apple and snake on the panel.
 If the game is over, it calls the gameOver method to display a "Game Over" message.
 
-**
-gameOver(Graphics g):
-**
+**gameOver(Graphics g):**
 Purpose: Displays a "Game Over" message.
 Explanation:
 Draws a "Game Over" message at the center of the panel using the Graphics object.
 Uses a specified font and color for the message.
 
-**
-move():
-**
+**move():**
 Purpose: Updates the coordinates of the snake's body segments based on the current direction.
 Explanation:
 Iterates through the snake's body segments and updates their coordinates.
 Moves the snake in the direction determined by the boolean flags (leftDirection, rightDirection, upDirection, downDirection).
 
 
-**checkApple():
-**
+**checkApple():**
 Purpose: Checks if the snake has consumed the apple.
 Explanation:
 Compares the coordinates of the snake's head with the coordinates of the apple.
 If a match is found, increments the number of snake body segments (dots) and calls locateApple() to reposition the apple.
 
-**
-checkCollision():
-**
+**checkCollision():**
 Purpose: Checks for collisions with the game boundaries or the snake itself.
 Explanation:
 Iterates through the snake's body segments starting from the head.
@@ -96,15 +87,13 @@ If the head reaches the boundaries of the game area, sets inGame to false.
 If inGame is false, stops the timer.
 
 
-**actionPerformed(ActionEvent ae):
-**
+**actionPerformed(ActionEvent ae):**
 Purpose: Handles the action events triggered by the timer.
 Explanation:
 If the game is still in progress, checks for apple consumption, collision, and updates the snake's movement using the move method.
 Calls repaint() to update the display.
 
-**TADAPTER - Inner Key Adapter Class:
-**
+**TADAPTER - Inner Key Adapter Class:**
 Purpose: Handles key events for changing the snake's direction based on arrow key presses.
 Explanation: **Overrides** the keyPressed method to determine the pressed key and update the direction flags accordingly.
 
