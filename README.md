@@ -10,5 +10,6 @@ This game was made by me using the Java Language.
 
 I used Swing and AWT (abstract window tool) concepts to make this.
 
-You can find two files in Src/snakegame that has the coding part of java and main
-and the 
+You can find two main files in Src/snakegame that have the coding part of Java and main
+
+and the icons folder in this route SnakeGame/src/snakegame/icons.
