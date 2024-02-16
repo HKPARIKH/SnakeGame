@@ -17,9 +17,7 @@ and the icons folder in this route SnakeGame/src/snakegame/icons that have the i
 
 **Board() - Constructor:**
 
-
 Purpose: Initializes the Board class.
-
 
 Explanation:
 Adds a KeyListener (instance of TADAPTER) to handle keyboard input.
