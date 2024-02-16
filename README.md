@@ -1,4 +1,4 @@
-This is a snake game that use to come on the old phones especially if you remember on the Nokia phones. something like this : - 
+This is a snake game that used to come on old phones, especially if you remember it on Nokia phones. something like this : - 
 
 
 
