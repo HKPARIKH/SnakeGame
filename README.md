@@ -12,8 +12,7 @@ You can find two main files in Src/snakegame that have the coding part of the ga
 and the icons folder in this route SnakeGame/src/snakegame/icons that have the icons of head, body, and apple.
 
 
-**
-Detailed Explaination **
+**Detailed Explaination **
 
 
 **
